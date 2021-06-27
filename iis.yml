@@ -1,0 +1,20 @@
+---
+
+- hosts: ec2-18-207-237-149.compute-1.amazonaws.com
+  vars:
+    ansible_user: Administrator
+    ansible_password: Password01
+    ansible_connection: winrm
+    ansible_winrm_transport: basic
+    ansible_port: 5986
+    ansible_winrm_server_cert_validation: ignore
+
+  tasks:
+  - name: "Install IIS Web-Server"
+    win_feature:
+      name: Web-Server
+      state: present
+      restart: True
+      include_sub_features: True
+      include_management_tools: True
+  

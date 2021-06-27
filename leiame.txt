@@ -1,0 +1,25 @@
+Aluno: Rafael Marques da Paixão
+Curso: Eng DevOps - Unyleya
+Disciplina: Melhores Práticas em DevOps
+Exercício:  Atividade 04
+
+Conhecemos na Unidade 4 como podemos automatizar nossos ambientes de infraestrutura e ainda ter ganhos com agilidade, maior tempo para inovação e redução de custos utilizando Infraestrutura como Código (IaC). Também vimos as principais ferramentas que fazem este papel no mercado e quais as ferramentas que o mercado adotou como maior ganho para utilização no dia a dia.
+
+
+Diante de todo este cenário, vamos incluir este passo de IaC em nosso projeto iniciado na unidade 2, onde você criou um ambiente de pipelines automatizado. Neste momento você criará um ambiente em cloud (AWS ou AZURE) e, para que tenhamos o ambiente criado via código conforme desenho abaixo, crie o ambiente proposto utilizando Terraform para provisionamento do ambiente em cloud e a ferramenta Ansible para gerenciamento de configurações a fim de incluir os serviços necessários no servidor.
+
+Envie para esta tarefa o seu repositório Github (Link) contendo o código IaC Terraform e playbook Ansible, juntamente com o print ou log do seu Terraform e Ansible ao final dos scripts terem rodado em seu ambiente e print do ambiente criado em cloud e IIS instalado.
+
+
+Utilize as documentações do Terraform e Ansible, além de nosso material, para apoio na criação do ambiente.
+
+
+Bom trabalho!
+
+itens: 
+
+ansible.log
+iis.yml
+main.tf
+terraform.log
+windows2019_iis_remote_install.PNG
